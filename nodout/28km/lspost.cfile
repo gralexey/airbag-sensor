@@ -1,0 +1,61 @@
+$# LS-PrePost command file created by LS-PrePost 3.2 (Beta) - 29Jun2011(16:05)
+$# Created on Sep-14-2013 (23:58:51)
+ascii nodout open "D:\work\airbag\28km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 filter none 180.00 sec 0
+xyplot 1 filter none 180.00 sec 0
+xyplot 1 filter none 180.00 sec 2
+xyplot 1 filter none 180.00 sec 9
+ascii nodout plot 11 1000000
+ascii nodout plot 9 1000000
+ascii nodout plot 12 1000000
+ascii nodout plot 9 1000000
+xyplot 1 filter none 180.00 sec 9
+xyplot 1 filter none 180.00 sec 0
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 reset filter
+xyplot 1 filter sae 180.00 sec 2
+xyplot 1 filter sae 180.00 sec 9
+xyplot 1 filter bw 180.00 sec 0
+xyplot 1 filter fir 100.00 sec 0
+xyplot 1 filter cos 180.00 sec 0
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 savefile ms_csv "D:\work\airbag\28km\sae180.csv" 1 all
+ascii nodout open "D:\work\airbag\25km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 savefile ms_csv "D:\work\airbag\25km\sae180.csv" 1 all
+ascii nodout open "D:\work\airbag\21km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 savefile ms_csv "D:\work\airbag\21km\sae180.csv" 1 all
+ascii nodout open "D:\work\airbag\18km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 savefile ms_csv "D:\work\airbag\18km\sae180.csv" 1 all
+ascii nodout open "D:\work\airbag\15km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 savefile ms_csv "D:\work\airbag\15km\sae180.csv" 1 all
+ascii nodout open "D:\work\airbag\14km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 filter sae 180.00 sec 0
+xyplot 1 savefile ms_csv "D:\work\airbag\14km\sae180.csv" 1 all
+xyplot 1 reset filter
+xyplot 1 savefile ms_csv "D:\work\airbag\14km\x-acc.csv" 1 all
+ascii nodout open "D:\work\airbag\15km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 savefile ms_csv "D:\work\airbag\15km\x-acc.csv" 1 all
+ascii nodout open "D:\work\airbag\18km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 savefile ms_csv "D:\work\airbag\18km\x-acc.csv" 1 all
+ascii nodout open "D:\work\airbag\21km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 savefile ms_csv "D:\work\airbag\21km\x-acc.csv" 1 all
+ascii nodout open "D:\work\airbag\25km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 savefile ms_csv "D:\work\airbag\25km\x-acc.csv" 1 all
+ascii nodout open "D:\work\airbag\28km\nodout"
+ascii nodout plot 9 1000000
+xyplot 1 savefile ms_csv "D:\work\airbag\28km\x-acc.csv" 1 all

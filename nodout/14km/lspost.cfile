@@ -1,0 +1,24 @@
+$# LS-PrePost command file created by LS-PrePost 3.2 (Beta) - 29Jun2011(16:05)
+$# Created on Sep-14-2013 (23:44:12)
+ascii nodout open "D:\work\airbag\14km\nodout"
+ascii nodout plot 9 800041
+ascii nodout plot 10 800041
+ascii nodout plot 11 800041
+ascii nodout plot 12 800041
+ascii nodout plot 9 800041
+ascii nodout plot 10 800041
+ascii nodout plot 11 800041
+ascii nodout plot 12 800041
+ascii nodout plot 12 all
+ascii nodout plot 12 1000000
+xyplot 1 filter sae  60.00 msec 0
+xyplot 1 filter sae  60.00 msec 2
+xyplot 1 filter sae 180.00 msec 2
+xyplot 1 reset filter
+xyplot 1 filter sae 180.00 sec 2
+ascii nodout plot 8 1000000
+ascii nodout open "D:\work\airbag\28km\nodout"
+ascii nodout plot 12 1000000
+xyplot 1 filter sae 180.00 sec 2
+xyplot 1 reset filter
+deletewin 1
